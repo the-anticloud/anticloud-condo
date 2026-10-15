@@ -1,0 +1,16 @@
+{
+ "framework": "24_MITRE_ATTCK",
+ "title": "MITRE ATT&CK v15 (DQI/PQI/IQI)",
+ "project": "CONDO",
+ "basis": [
+  {
+   "check": "15_mitre_attack",
+   "status": "PASS",
+   "observed": "12/12 controls evidenced (100.0%)"
+  }
+ ],
+ "verdict": "CONTROLS EVIDENCED \u2014 all basis checks PASS",
+ "pax_provenance": "Run ID loiskleinner/pax-benchmark-runner v3, 2026-10-02, Kaggle T4 x2 (2x 16GB VRAM), Ubuntu 22.04, Python 3.12. These are PAX L5 Narrow L2 General 27B model-level results \u2014 shared model component, not this project's verdict.",
+ "bench_sha3": "6c1e5207284167ee3a97701fffcfa89e8bd79a3a5e01cb511bc244e45f4b9057",
+ "register_sha3": "330291a3aa58df0fa5bf5430f224e39f125c0243b3be5fdfe44ffecde22218e5"
+}
